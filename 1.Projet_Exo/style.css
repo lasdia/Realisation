@@ -1,0 +1,69 @@
+#réalisation{
+    background-color:#e9ecef
+}
+
+li{
+    list-style-type: none;
+}
+
+
+footer{
+    background-color: #626262;
+}
+
+#bleu{
+
+height: 200px;
+
+background-color: rgb(58, 82, 134);
+}
+
+#gris{
+
+    height: 200px;
+    
+    background-color: rgb(121, 124, 103);
+}
+
+#vert{
+
+    height: 200px;
+    
+    background-color: rgb(53, 240, 63);
+}
+
+#rouge{
+
+    height: 200px;
+    
+    background-color: rgb(240, 53, 53);
+}
+
+#jaune{
+
+    height: 200px;
+    
+    background-color: rgb(227, 240, 53);
+}
+
+#bleu2{
+
+    height: 200px;
+    
+    background-color: rgb(53, 212, 240);
+}
+
+
+#rose{
+
+    height: 200px;
+    
+    background-color: rgb(255, 19, 216);
+}
+
+#noir{
+
+    height: 200px;
+    
+    background-color: rgb(19, 19, 17);
+}

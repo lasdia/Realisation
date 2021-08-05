@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP Diallo Lassana</title>
+     <link rel="stylesheet" href="./CalculLD.css" />
+</head>
+<body>
+
+
+<form>
+    <div class="container"> 
+     <div class="centre">
+        <div class="calcul">
+        <p id="affichage0">Calculer vos droits puis valider</p>
+            <h1>Calculateur de salaire</h1>
+        </div>
+        <div class="s"></div>
+             <div class="centre1">
+                <div class="sal">
+                    <input type="text" 
+                    name="salaire" id="salaire" 
+                    placeholder="Entrer votre salaire brut"
+                    required>
+                    <span class="validity" ></span>    
+                </div>
+            </div>
+
+<div class="choix">
+            
+      
+            <br>
+            <br>
+           <div class="modif1">Calculer le salaire d'une personne</div> 
+            <br>
+            <br>
+                <label for="impots"> Impôts sur le revenu : 18%</label>
+                <input type="checkbox" name="impots" value="imp" id="impots">
+            <br>
+                <label for="assurance"> Assurance employé : 7%</label>
+                <input type="checkbox" name="assurance" id="assurance">
+            <br>
+                <label for="pension">Régime de pensions de Corse : 5%</label>
+                <input type="checkbox" name="pension" id="pension">  
+            <br>
+            <br>
+            <div class="modif1">Options : 2 choix à recevoir 1 choix possible</div> 
+            <br>
+            <br>
+                <label for="bonus">Bonus de 100€</label>
+                <input type="radio" name="supplement" id="bonus">
+                <label for="allocation">Allocation de 150€</label>
+                <input type="radio" name="supplement" id="allocation">
+            <br>
+            <br>
+            
+            <br>
+            <br> <div class="modif1">Sexe</div> 
+                <label for="homme">Homme</label>
+                <input type="radio" name="genre" id="homme" >
+                <label for="femme">Femme = 2% de réduction </label>
+                <input type="radio" name="genre" id="femme">
+            <br>
+            <br>
+            <div class="modif1">Options : Réductions sur les impôts 
+            sur le revenu : Personne à charge</div> 
+            <br>
+            <br>
+                <label for="un">1 Personne </label>
+                <input type="radio" name="charge" id="un">
+            <br>
+                <label for="deux">2 Personnes</label>
+                <input type="radio" name="charge" id="deux">
+            <br>
+                <label for="trois">3 Personnes = 1% de réduction </label>
+                <input type="radio" name="charge" id="trois">
+            <br>
+                <label for="quatre">4 Personnes = 2% de réduction</label>
+                <input type="radio" name="charge" id="quatre">
+            <br>
+            <br> 
+                <input type="button" value="Valider"  id="bp"onClick="validation()"
+                required>   
+        </form>
+                <p id="affichage">N'oubliez pas de valider</p>
+          </div>       
+    </div>
+</div>   
+</body>
+
+
+<script src="./CalculLD.js"></script>
+</html>
+
